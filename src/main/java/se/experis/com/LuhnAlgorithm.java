@@ -43,11 +43,6 @@ public class LuhnAlgorithm {
 
     public static boolean isCreditCard(Long number) {
         String stringNumber = Long.toString(number);
-        if (stringNumber.length() == 16) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        return stringNumber.length() == 16;
     }
 }

@@ -23,7 +23,7 @@ public class Main {
             }
             System.out.println("Creditcard number: " + LuhnAlgorithm.getCardNumber(cardNumber));
             System.out.println("Checksum: " + LuhnAlgorithm.getChecksumValue(cardNumber));
-            System.out.println("Digits: " + LuhnAlgorithm.getNumberOfDigits(cardNumber));
+            System.out.println("Digits: " + LuhnAlgorithm.getNumberOfDigits(cardNumber) + " ( "  + (LuhnAlgorithm.isCreditCard(cardNumber) ? "credit card" : "not a credit card"  ) + " )");
 
         } catch (InputMismatchException e){
             System.out.println("Invalid input.");
