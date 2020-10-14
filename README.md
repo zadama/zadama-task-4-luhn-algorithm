@@ -13,7 +13,7 @@ For example, providing 4242424242424242:
 
 Input: 424242424242424 2\
 Provided: 2\
-Expected: 2\
+Expected: 2
 
 Checksum: Valid\
 Digits: 16 (credit card) 
